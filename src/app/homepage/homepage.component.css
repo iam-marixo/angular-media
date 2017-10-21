@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Nosifer');
+
+html {
+  background-color: #0b3346;
+}
+h1 {
+  font-family: 'Nosifer', cursive;
+  background-color: #0b3346;
+  color: white;
+  margin-top: 1px;
+  padding-top: 20px;
+}
