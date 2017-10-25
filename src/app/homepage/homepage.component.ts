@@ -1,11 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  templateUrl: './homepage.component.html',
-  styleUrls: ['./homepage.component.css']
+ selector: 'homepage',
+ templateUrl: './homepage.component.html',
+ styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent implements OnInit {
-  title = 'Movie Lovers!';
+  public searchText;
+ title = 'Movie Lovers';
+ constructor() {}
 
-  ngOnInit() {}
-}
+ ngOnInit(){}
+ }
+ this.movieList = [
+      {
+      id: 0 ,
+	  title: "Toy Story",
+	  }
+	]

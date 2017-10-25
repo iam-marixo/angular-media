@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Nosifer');
 
 html {
-  background-color: #0b3346;
+color: #0b3346;
 }
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #0b3346;
+  }
 h1 {
-  font-family: 'Nosifer', cursive;
   background-color: #0b3346;
+  font-family: 'Nosifer', cursive;
   color: white;
   margin-top: 1px;
+  margin-bottom: -27px;
   padding-top: 20px;
 }
