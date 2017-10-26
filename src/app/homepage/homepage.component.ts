@@ -1,20 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Movie } from '../models/movie';
+
 @Component({
- selector: 'homepage',
- templateUrl: './homepage.component.html',
- styleUrls: ['./homepage.component.css']
+  selector: 'homepage',
+  templateUrl: './homepage.component.html',
+  styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent implements OnInit {
-  public searchText;
- title = 'Movie Lovers';
- constructor() {}
+  title = ' the Movies';
+  movieList: Array<Movie>;
+  constructor() {}
 
- ngOnInit(){}
- }
- this.movieList = [
-      {
-      id: 0 ,
-	  title: "Toy Story",
-	  }
-	]
+  ngOnInit(){
+  }
+}
