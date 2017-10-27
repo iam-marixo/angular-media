@@ -1,0 +1,10 @@
+.heading {
+ text-align: center;
+}
+img[_ngcontent-c2] {
+    height: 7%;
+    width: 7%;
+    float: left;
+    display: inline-block;
+    margin-left: 55px;
+}

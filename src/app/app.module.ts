@@ -8,7 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { MovieDetailComponent } from './movie-detail/movie-detail.component';
 import { MovieListComponent } from './movie-list/movie-list.component';
-import { ServicesComponent } from './services/services.component';
+import { MovieService } from './services/movie.service';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,7 @@ import { ServicesComponent } from './services/services.component';
     FormsModule,
     RoutingModule
   ],
-  providers: [ ServicesComponent ],
+  providers: [ MovieService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

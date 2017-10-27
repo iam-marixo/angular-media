@@ -1,15 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 
-@Component({
-  selector: 'app-movie-list',
-  templateUrl: './movie-list.component.html',
-  styleUrls: ['./movie-list.component.css']
-})
-export class MovieListComponent implements OnInit {
+ import { MovieService } from '../services/movie.service';
 
-  constructor() { }
 
-  ngOnInit() {
-  }
+ @Component({
+   selector: 'app-movie-list',
+   templateUrl: './movie-list.component.html',
+   styleUrls: ['./movie-list.component.css']
+ })
+ export class MovieListComponent implements OnInit {
+   public movies;
 
-}
+   constructor(private movieService: MovieService) { }
+
+   ngOnInit() {
+     this.movies = this.movieService.getMovies();
+   }
+
+ }
